@@ -3,7 +3,7 @@ import { useCallback } from "react";
 import Modal from "../components/modal";
 import styles from "./index.module.css";
 
-const Rating: NextPageRatingType = () => {
+const Rating: NextPage = () => {
   const onLETTERLOGO2Click = useCallback(() => {
     window.open("https://www.samparka.info/");
   }, []);
