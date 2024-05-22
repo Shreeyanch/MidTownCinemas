@@ -13,11 +13,11 @@ const Modal: NextPage<ModalType> = ({ className = "" }) => {
   const router = useRouter();
 
   const onStarRatingClick = useCallback(() => {
-    window.location.href = "https://reviewthis.biz/activeenterperise";
+    window.location.href = "https://reviewthis.biz/midtowncinemas";
   }, []);
 
   const onStarRating1Click = useCallback(() => {
-    window.location.href = "https://reviewthis.biz/activeenterperise";
+    window.location.href = "https://reviewthis.biz/midtowncinemas";
   }, []);
 
   const onStarRating2Click = useCallback(() => {
