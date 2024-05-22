@@ -9,9 +9,10 @@ body {
 }
 :root {
   /* fonts */
-  --font-inter: Inter;
-  --font-montserrat: Montserrat;
-  --font-roboto: Roboto;
+  --font-inter: Futura;
+  --font-montserrat: Futura;
+  --font-roboto: Futura;
+  /* --font-futura: Futura; */
 
   /* font sizes */
   --font-size-3xs: 10px;
