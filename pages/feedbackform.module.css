@@ -1,0 +1,142 @@
+.image12Icon {
+  width: 128px;
+  position: relative;
+  border-radius: 32px;
+  height: 127px;
+  object-fit: cover;
+}
+.midtownCinemas {
+  position: relative;
+  line-height: 130%;
+}
+.formHeader,
+.shareYourTravelsForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.formHeader {
+  align-self: stretch;
+  gap: 15px;
+}
+.shareYourTravelsForm {
+  width: 657px;
+  padding: var(--padding-xl);
+  box-sizing: border-box;
+  gap: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative !important;
+  left: auto !important;
+}
+.poweredBy {
+  height: 13px;
+  position: relative;
+  line-height: 130%;
+  font-weight: 300;
+  display: inline-block;
+}
+.letterLogo2 {
+  width: 97px;
+  position: relative;
+  height: 17px;
+  object-fit: cover;
+  mix-blend-mode: normal;
+  cursor: pointer;
+}
+.frameWrapper,
+.poweredByParent {
+  width: 1440px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.poweredByParent {
+  height: 26px;
+  flex-direction: row;
+  gap: var(--gap-11xs);
+}
+.frameWrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 18px;
+  flex-direction: column;
+}
+.feedbackform,
+.feedbackformInner {
+  width: 1440px;
+  position: relative;
+  height: 18px;
+  font-size: var(--font-size-3xs);
+  font-family: var(--font-inter);
+}
+.feedbackform {
+  width: 100%;
+  height: 1014px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+  background-image: url(/feedbackform@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  mix-blend-mode: normal;
+  text-align: center;
+  font-size: var(--font-size-21xl);
+  color: var(--color-white);
+  font-family: var(--font-montserrat);
+}
+@media screen and (max-width: 1200px) {
+  .midtownCinemas {
+    font-size: var(--font-size-11xl);
+  }
+  .poweredBy {
+    font-weight: 300;
+    font-family: var(--font-montserrat);
+    font-size: var(--font-size-mid);
+  }
+}
+@media screen and (max-width: 960px) {
+  .shareYourTravelsForm {
+    padding: var(--padding-5xl) 0;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative !important;
+    left: auto !important;
+    width: 90%;
+  }
+}
+@media screen and (max-width: 420px) {
+  .midtownCinemas {
+    font-size: var(--font-size-11xl);
+  }
+  .shareYourTravelsForm {
+    padding-left: var(--padding-5xl);
+    padding-right: var(--padding-5xl);
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative !important;
+    left: auto !important;
+    width: 100% !important;
+  }
+  .poweredBy {
+    font-weight: 100;
+    font-family: var(--font-montserrat);
+    font-size: var(--font-size-mini);
+  }
+  .letterLogo2 {
+    width: 100px;
+  }
+}
+@media screen and (max-width: 350px) {
+  .midtownCinemas {
+    font-size: var(--font-size-6xl);
+  }
+}
